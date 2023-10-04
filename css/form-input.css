@@ -1,0 +1,13 @@
+.form-input{
+    width: 290px;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--icon-color);
+    
+    
+     
+}
+.form-title-light{
+    color: var(--text-color-light);
+}

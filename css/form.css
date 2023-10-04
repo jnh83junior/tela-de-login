@@ -1,0 +1,24 @@
+.form {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
+
+
+}
+
+.form-login{
+    color: var(--text-color-dark);
+
+}
+
+
+
+
+.form-registter{
+    color: var(--text-color-dark);
+}
+    

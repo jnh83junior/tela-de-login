@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/b9d7470abc.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/login-container.css">
+        <link rel="stylesheet" href="./css/form-container.css">
+        <link rel="stylesheet" href="./css/form.css">
+        <link rel="stylesheet" href="./css/form-title.css">
+        <link rel="stylesheet" href="./css/colors.css">
+        <link rel="stylesheet" href="./css/social-icone.css">
+        <link rel="stylesheet" href="./css/form-container.css">
+        <link rel="stylesheet" href="./css/form-social.css">
+        <link rel="stylesheet" href="./css/form-input-container.css">
+        <link rel="stylesheet" href="./css/form-input.css">
+        <link rel="stylesheet" href="./css/form-button.css">
+        <link rel="stylesheet" href="./css/overlay-container.css">
+        <link rel="stylesheet" href="./css/overlay.css">
+
+        <script language = "javascript" src="./JS/login.js" defer></script>
+        <title>login - Ferreiras</title>
+    </head>
+
+    <body>
+
+        <main>
+            <div class="login-container" id="login-container">
+                <div class="form-container">
+                        <form class="form form-login">
+                            <h2 class="form-title">Entrar com </h2>
+                            <div class="form-social">
+                                <a href="https://pt-br.facebook.com/" class="social-icone"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://www.google.com.br/?hl=pt-BR" class="social-icone"><i class="fa-brands fa-google"></i></a>
+                                <a href="https://www.instagram.com/" class="social-icone"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <p class="form-text">ou utilize sua conta</p> 
+                            <div class="form-input-container">
+                                <input type="email" class="form-input" placeholder="Email">
+                                <input type="password" class="form-input" placeholder="senha">
+
+                            </div>
+                            <a href="#" class="form-link"> esqueceu a senha?</a>
+                            <button class="form-button">logar </button>
+                        </form>
+                        <form class="form form-registter">
+                            <h2 class="form-title">Criar Conta</h2>
+                                <div class="form-social">
+                                    <a href="https://pt-br.facebook.com/" class="social-icone"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.google.com.br/?hl=pt-BR" class="social-icone"><i class="fa-brands fa-google"></i></a>
+                                    <a href="https://www.instagram.com/" class="social-icone"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                
+                            
+                            <p class="form-text">ou cadastre seu email aqui </p>
+                            <div class="form-input-container">
+                                <input type="text" class="form-input" placeholder="nome">
+                                <input type="email" class="form-input" placeholder="email">
+                                <input type="password" class="form-input" placeholder="senha">
+                            </div>
+                                <button class="form-button">cadastre-se</button>
+                        </form>
+                </div>
+                <div class="overlay-container">
+                    <div class="overlay">                        
+                        <h2 class="form-title form-title-light">Já tem conta?</h2>
+                        <p class="form-text">Para entrar na nossa plataforma faça login com suas informações</p>
+                        <button class="form-button form-button-light">Entrar</button></div>
+                    <div class="overlay">
+                        <h2 class="form-title form-title-light">Olá Seja Bem Vindo!</h2>
+                        <p class="form-text">Cadastre-se e comece a usar a nossa plataforma on line</p>
+                        <button class="form-button form-button-light" id="open-register">Cadastrar</button>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
